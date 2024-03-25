@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div style="font-family:'Courier New', Courier, monospace ;"> <h2 align ="center"> INTERVIEW FEEDBACK</h2>
+    <h4>This type of form may be an easy way to condolidate/standardize feedback on interview candidates.</h4>
+       <form action="/submitform"> <table border="0 ">
+         <tr>
+        <td><b><label for="cdn">Candidate Name</label></b></td>
+        <td><input type="text"></td>
+        <td><b><label for="paf">Position Applied For</label></b></td>
+        <td><input type="text"></td>
+        </tr>
+        </table ><br> <br>
+
+
+        <table>
+         <tr><th><b>Education</b></th>
+         <th> <b>Candidate is a good fit for the position</b></th>
+        </tr><tr>
+            <td style="vertical-align: top;"><select><datalist id=”el”>
+                <option value=”Highchool”>1.Highchool
+                <option value=BachelorsDegree”>2.BachelorsDegree
+                <option value=”DoctoralDegree”>3.DoctoralDegree
+                <option value=”ProfessionalCentification”>4.ProfessionalCentification
+                
+                </datalist> </select></td>
+                <td> <input type="radio" id="cd" name="candidates" value="Agree"> Agree <br> 
+                     <input type="radio" id="cd" name="candidates" value="Somewhat"> Somewhat Agree <br>
+                     <input type="radio" id="cd" name="candidates" value="Neutral"> Neutral <br>
+                     <input type="radio" id="cd" name="candidates" value="Somewhat"> Somewhat Disagree <br>
+                     <input type="radio" id="cd" name="candidates" value="Disagree"> Disagree <br>
+                </td> </tr>
+        </table> <br>
+        <label for="yn"><b>Should we hire this candidates</b></label>
+        <input type="radio" name="yn" id="yn" value="yes">yes
+        <input type="radio" name="yn" id="yn" value="no">no <br>
+        <label for="cm"><b>Comments</b></label>
+        <textarea name="cm" id="cm" cols="30" rows="5" style="overflow-y: scroll;"></textarea> <br>
+        <div align ="center"><input type="button" name="Sb" id="Sb" value="Submit"></div>
+       </form>
+   </div>
+</body>
+</html>
